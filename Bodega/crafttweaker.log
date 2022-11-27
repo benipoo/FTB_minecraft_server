@@ -1,0 +1,154 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+BrÃƒÂ¸nsted
+NerdyWhiteGuy
+DreamThorn
+NickT
+Luvely
+Genryu
+AdaraChristine
+SquidDev
+WaterMoon
+Ncc1702
+Peregrinus11
+Belathus
+Pongo Sapiens
+MT7658
+Hooley
+Jessie Sims
+Riley
+Phillip Swearingain
+Ivy_
+Spencer Gilbert
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 00_recipe_changes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 01_unification.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 02_akashic_tome.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: 03_tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 3ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: 00_recipe_changes.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'recipe_changes.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <actuallyadditions:item_bag>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:bagofholding>: "Disabled due to bug!"
+[INITIALIZATION][SERVER][INFO] Initialized 'recipe_changes.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: 01_unification.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'unification.zs'...
+[INITIALIZATION][SERVER][INFO] Trying to remove Crafting Table recipes for kind: plate
+[INITIALIZATION][SERVER][INFO] Adding Iridium Shard to ore dictionary entry nuggetIridium
+[INITIALIZATION][SERVER][INFO] Adding Iridium Nugget to ore dictionary entry nuggetIridium
+[INITIALIZATION][SERVER][INFO] Adding Iridium Ore to ore dictionary entry ingotIridium
+[INITIALIZATION][SERVER][INFO] Adding Iridium Ingot to ore dictionary entry ingotIridium
+[INITIALIZATION][SERVER][INFO] Initialized 'unification.zs'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: 02_akashic_tome.zs}
+[INITIALIZATION][SERVER][INFO] Akashic Tome
+[INITIALIZATION][SERVER][INFO] Adding 1 Initial Inventory Recipe(s) for <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, "akashictome:data": {tconstruct: {id: "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, industrialforegoing: {id: "industrialforegoing:book_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "industrialforegoing"}, Damage: 0 as short}, astralsorcery: {id: "astralsorcery:itemjournal", Count: 1 as byte, tag: {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, immersiveengineering: {id: "immersiveengineering:tool", Count: 1 as byte, tag: {"akashictome:definedMod": "immersiveengineering"}, Damage: 3 as short}, valkyrielib: {id: "valkyrielib:guide", Count: 1 as byte, tag: {"akashictome:definedMod": "valkyrielib"}, Damage: 0 as short}, rftools1: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools1"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short}, draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag: {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, bloodmagic: {id: "guideapi:bloodmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "bloodmagic"}, Damage: 0 as short}, forestry: {id: "forestry:book_forester", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, Damage: 0 as short}, cookingforblockheads: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads"}, Damage: 1 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}}}):-1
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, "akashictome:data": {tconstruct: {id: "tconstruct:book", Count: 1 as byte, tag: {"akashictome:definedMod": "tconstruct"}, Damage: 0 as short}, rftoolscontrol: {id: "rftoolscontrol:rftoolscontrol_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftoolscontrol"}, Damage: 0 as short}, industrialforegoing: {id: "industrialforegoing:book_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "industrialforegoing"}, Damage: 0 as short}, astralsorcery: {id: "astralsorcery:itemjournal", Count: 1 as byte, tag: {"akashictome:definedMod": "astralsorcery"}, Damage: 0 as short}, conarm: {id: "conarm:book", Count: 1 as byte, tag: {"akashictome:definedMod": "conarm"}, Damage: 0 as short}, immersiveengineering: {id: "immersiveengineering:tool", Count: 1 as byte, tag: {"akashictome:definedMod": "immersiveengineering"}, Damage: 3 as short}, valkyrielib: {id: "valkyrielib:guide", Count: 1 as byte, tag: {"akashictome:definedMod": "valkyrielib"}, Damage: 0 as short}, rftools1: {id: "rftools:rftools_shape_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "rftools1"}, Damage: 0 as short}, botania: {id: "botania:lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, rustic: {id: "rustic:book", Count: 1 as byte, tag: {"akashictome:definedMod": "rustic"}, Damage: 0 as short}, draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag: {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, extrautils2: {id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, thermalfoundation: {id: "thermalfoundation:tome_lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "thermalfoundation"}, Damage: 0 as short}, actuallyadditions: {id: "actuallyadditions:item_booklet", Count: 1 as byte, tag: {"akashictome:definedMod": "actuallyadditions"}, Damage: 0 as short}, bloodmagic: {id: "guideapi:bloodmagic-guide", Count: 1 as byte, tag: {"akashictome:definedMod": "bloodmagic"}, Damage: 0 as short}, forestry: {id: "forestry:book_forester", Count: 1 as byte, tag: {"akashictome:definedMod": "forestry"}, Damage: 0 as short}, cookingforblockheads: {id: "cookingforblockheads:recipe_book", Count: 1 as byte, tag: {"akashictome:definedMod": "cookingforblockheads"}, Damage: 1 as short}, xnet: {id: "xnet:xnet_manual", Count: 1 as byte, tag: {"akashictome:definedMod": "xnet"}, Damage: 0 as short}}}): "The Tome is preloaded with all basic mod manuals and guides!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: 03_tooltip.zs}
+[INITIALIZATION][SERVER][INFO] Initializing 'tooltip.zs'...
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <fluxnetworks:flux>: "Drops from Redstone Ore"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <fluxnetworks:flux>: "Throwing in fire or lava recipe has been disabled!"
+[INITIALIZATION][SERVER][INFO] Initialized 'tooltip.zs'
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 565ms
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Grout with name ct_shapeless-1687752399
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Dark Oak Bark with name ct_shaped866001632
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Acacia Bark with name ct_shaped2035623888
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Jungle Bark with name ct_shaped1910004744
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Birch Bark with name ct_shaped-83212056
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spruce Bark with name ct_shaped-2076428856
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Oak Bark with name ct_shaped1386799528
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Trapped Chest with name ct_shapeless1113203270
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Trapped Chest with name ct_shapeless1112279749
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Trapped Chest with name ct_shapeless1111356228
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Trapped Chest with name ct_shapeless1110432707
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Trapped Chest with name ct_shapeless1386789580
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Chest with name ct_shapeless-127843617
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Chest with name ct_shapeless-128767138
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Chest with name ct_shapeless-129690659
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Chest with name ct_shapeless-130614180
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Oak Chest with name ct_shapeless1023487397
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Lattice with name ct_shaped669523890
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bronze Ingot with name ct_shapeless-807158681
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bronze Gear with name ct_shaped485348497
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Experience Solidifier with name ct_shaped-981961046
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Crackers with name ct_shapeless-1447112844
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Large Pulley with name ct_shaped1657943589
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wither Skeleton Skull with name ct_shaped377853292
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Barley Seed with name ct_shapeless-1402951008
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Steel Item Casing with name ct_shapeless2100202079
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Essence of Scornful Oblivion with name ct_shaped1360171318
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Wired Modem with name ct_shapeless-1657575308
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Wired Modem with name ct_shapeless828531420
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wired Modem with name ct_shaped899045803
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for End Crystal with name ct_shaped510523585
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rope with name ct_shaped1479556066
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Adv. Item Unloader with name ct_shaped-1471208054
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Adv. Item Loader with name ct_shaped-1969172300
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Slimey Generator with name ct_shaped-1483404828
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Item Rack with name ct_shaped113416811
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Zinc Ingot with name ct_shapeless1174227057
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Mossy Stone Brick Stairs with name ct_shaped-1820300750
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tin Gear with name ct_shaped-848174759
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Block of Zinc with name ct_shaped1639569109
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Zinc Ingot with name ct_shaped1393358126
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Zinc Ingot with name ct_shapeless-123570481
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Zinc Nugget with name ct_shapeless-129621134
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Nickel Plate with name ct_shapeless1326184078
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Aluminum Plate with name ct_shapeless-724454781
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Steel Plate with name ct_shapeless-919936465
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gold Plate with name ct_shapeless935707448
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Silver Plate with name ct_shapeless-1590663666
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bronze Plate with name ct_shapeless1612079739
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Tin Plate with name ct_shapeless185012699
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Copper Plate with name ct_shapeless1298067864
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Plate with name ct_shapeless289767711
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lead Plate with name ct_shapeless1683325278
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Electrum Plate with name ct_shapeless68031226
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iridium Plate with name ct_shapeless1008042041
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Constantan Plate with name ct_shapeless-1642506765
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lumium Plate with name ct_shapeless668437601
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Enderium Plate with name ct_shapeless-1284107682
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Invar Plate with name ct_shapeless2129769476
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Signalum Plate with name ct_shapeless61168931
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mana Infused Plate with name ct_shapeless-119324192
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Platinum Plate with name ct_shapeless1064290737
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Brass Plate with name ct_shapeless-1282462167
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Thaumium Plate with name ct_shapeless620223993
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Void Metal Plate with name ct_shapeless-1360228913
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Platinum Plate with name ct_shapeless-1957891543
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mana Infused Plate with name ct_shapeless-1877569236
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Signalum Plate with name ct_shapeless-319920353
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Invar Plate with name ct_shapeless-538976286
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Enderium Plate with name ct_shapeless-1609003498
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lumium Plate with name ct_shapeless1999912379
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Constantan Plate with name ct_shapeless266721169
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iridium Plate with name ct_shapeless-474014685
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Electrum Plate with name ct_shapeless-425444994
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lead Plate with name ct_shapeless245505596
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Nickel Plate with name ct_shapeless-504920920
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Aluminum Plate with name ct_shapeless492136767
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Steel Plate with name ct_shapeless-2104310199
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gold Plate with name ct_shapeless-357392982
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Silver Plate with name ct_shapeless1177021198
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Tin Plate with name ct_shapeless-1960380295
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Copper Plate with name ct_shapeless-1458321956
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Plate with name ct_shapeless821724083
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Brass Plate with name ct_shapeless189876567
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Thaumium Plate with name ct_shapeless-1743778409
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Void Metal Plate with name ct_shapeless-257838897
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Jetpack Attachment Plate with name ct_shaped-1213344888
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iridium Reinforced Plate with name ct_shaped1205908350
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Akashic Tome with name ct_shapeless-1313683801
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <harvestcraft:flouritem>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:crystal_seed> and <minecraft:glowstone_dust>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:crystal_seed:1200> and <minecraft:glowstone_dust>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:crystal_seed:600> and <minecraft:glowstone_dust>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:material:10>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:material:12>
+[AVAILABLE][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <appliedenergistics2:material:11>
